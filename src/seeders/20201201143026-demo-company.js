@@ -14,7 +14,7 @@ module.exports = {
     return queryInterface.bulkInsert('Companies', [
       {
         name: 'Mitchell, Bailey and Parisian',
-        field: null,
+        field: '',
         city: 'Allan Union',
         photo: 'demo-recruiter-1.jpg',
         authorId: 1,
@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         name: 'Weber - Konopelski',
-        field: null,
+        field: '',
         city: 'Gusikowski Streets',
         photo: 'demo-recruiter-2.jpg',
         authorId: 2,
@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         name: 'Hane Inc',
-        field: null,
+        field: '',
         city: 'Deontae Parkways',
         photo: 'demo-recruiter-3.jpg',
         authorId: 3,
@@ -41,7 +41,7 @@ module.exports = {
       },
       {
         name: 'Feil, Dickinson and Kassulke',
-        field: null,
+        field: '',
         city: 'Kunde Cliff',
         photo: 'demo-recruiter-4.jpg',
         authorId: 4,
@@ -50,7 +50,7 @@ module.exports = {
       },
       {
         name: 'Russel, Skiles and Bailey',
-        field: null,
+        field: '',
         city: 'Veda Falls',
         photo: 'demo-recruiter-5.jpg',
         authorId: 5,

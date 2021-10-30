@@ -24,7 +24,7 @@ module.exports = {
         address: '405 Allan Union',
         company: 'Mitchell, Bailey and Parisian',
         bio: 'Itaque aut reiciendis magni illum eveniet sint provident ipsum. Facilis et ut sequi et odit voluptates voluptatem aut. Qui cupiditate et. Illum dolore sunt sed distinctio et minus est. Id molestiae voluptates illo.',
-        photo: 'demo-recruiter-1.jpg',
+        photo: 'uploads/demo-recruiter-1.jpg',
         roleId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -41,7 +41,7 @@ module.exports = {
         address: '6654 Gusikowski Streets',
         company: 'Weber - Konopelski',
         bio: 'Et ut animi repudiandae numquam cum inventore. Dicta nostrum qui molestias ut harum ipsa. Error mollitia eius ex et. Consequatur est enim sed pariatur sint itaque. Deleniti eveniet ducimus amet adipisci fuga qui praesentium. Et sapiente et doloremque quo qui ut quis.',
-        photo: 'demo-recruiter-2.jpg',
+        photo: 'uploads/demo-recruiter-2.jpg',
         roleId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -58,7 +58,7 @@ module.exports = {
         address: '993 Deontae Parkways',
         company: 'Hane Inc',
         bio: 'Occaecati libero ut cumque molestias. Distinctio et corporis corrupti ut et necessitatibus quo in. Aut magni consectetur eos sit facere eveniet dolore sunt. Vel est ad placeat itaque quod.',
-        photo: 'demo-recruiter-3.jpg',
+        photo: 'uploads/demo-recruiter-3.jpg',
         roleId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -75,7 +75,7 @@ module.exports = {
         address: '54115 Kunde Cliff',
         company: 'Feil, Dickinson and Kassulke',
         bio: 'Eos consequatur ea dolorem voluptas esse ut. Nam atque et delectus fugiat. Ab earum reprehenderit sit nulla qui. Laudantium quasi architecto et tempora magni qui vero aut earum. Quo asperiores dolorem esse inventore vel voluptate ipsum.',
-        photo: 'demo-recruiter-4.jpg',
+        photo: 'uploads/demo-recruiter-4.jpg',
         roleId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -92,8 +92,25 @@ module.exports = {
         address: '6691 Veda Falls',
         company: 'Russel, Skiles and Bailey',
         bio: 'Asperiores excepturi inventore enim facilis. Deleniti doloremque aperiam voluptatem vero et atque quas. Quaerat non quas earum consequatur omnis. Tenetur ipsam nihil maxime necessitatibus. Voluptatibus dignissimos consequatur nihil voluptas hic.',
-        photo: 'demo-recruiter-5.jpg',
+        photo: 'uploads/demo-recruiter-5.jpg',
         roleId: 3,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Renee Sipes',
+        email: 'example1@gmail.com',
+        password: '12345678',
+        phoneNumber: '6850392849',
+        jobTitle: 'Central Solutions Associate',
+        company: 'Cummings - Herzog',
+        address: '6735 Hauck Road',
+        instagram: 'http://robyn.org',
+        github: 'http://antonia.biz',
+        linkedin: 'https://laverna.net',
+        bio: 'Beatae asperiores delectus sit. Molestiae ad adipisci similique sit. Culpa nostrum corrupti enim et ducimus sed deserunt inventore praesentium. Nihil sed magnam nulla ut voluptas exercitationem sunt at et.',
+        photo: 'uploads/demo-worker-1.jpg',
+        roleId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -109,7 +126,7 @@ module.exports = {
         github: 'http://antonia.biz',
         linkedin: 'https://laverna.net',
         bio: 'Beatae asperiores delectus sit. Molestiae ad adipisci similique sit. Culpa nostrum corrupti enim et ducimus sed deserunt inventore praesentium. Nihil sed magnam nulla ut voluptas exercitationem sunt at et.',
-        photo: 'demo-worker-1.jpg',
+        photo: 'uploads/demo-worker-2.jpg',
         roleId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -126,24 +143,7 @@ module.exports = {
         github: 'https://tony.com',
         linkedin: 'https://abe.biz',
         bio: 'Neque quidem voluptatem praesentium quas id officia incidunt atque velit. Quae et est sint libero voluptas aliquam. Dolores earum velit. Ad quaerat expedita facilis esse quidem. Aliquam eius et similique explicabo in commodi id omnis quaerat. Provident ex atque eveniet alias voluptas cumque.',
-        photo: 'demo-worker-2.jpg',
-        roleId: 2,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-      {
-        name: 'Sylvia Dicki',
-        email: 'example3@gmail.com',
-        password: '12345678',
-        phoneNumber: '41459690156',
-        jobTitle: 'District Identity Administrator',
-        company: 'Parisian, Lubowitz and Smith',
-        address: '2884 Wintheiser Court',
-        instagram: 'http://zoe.com',
-        github: 'https://tony.com',
-        linkedin: 'https://abe.biz',
-        bio: 'Neque quidem voluptatem praesentium quas id officia incidunt atque velit. Quae et est sint libero voluptas aliquam. Dolores earum velit. Ad quaerat expedita facilis esse quidem. Aliquam eius et similique explicabo in commodi id omnis quaerat. Provident ex atque eveniet alias voluptas cumque.',
-        photo: 'demo-worker-3.jpg',
+        photo: 'uploads/demo-worker-3.jpg',
         roleId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -160,7 +160,7 @@ module.exports = {
         github: 'http://carli.org',
         linkedin: 'http://yesenia.info',
         bio: 'Sed consequatur nostrum consequatur quo odio reprehenderit quia tempora. Veritatis ipsa animi quis voluptas omnis voluptatem. Vero placeat dolor minima doloremque neque pariatur. Ut iure nostrum id sit est iusto iste. Quo neque quam quos quia voluptatum.',
-        photo: 'demo-worker-4.jpg',
+        photo: 'uploads/demo-worker-4.jpg',
         roleId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -177,7 +177,7 @@ module.exports = {
         github: 'http://alene.info',
         linkedin: 'https://laney.com',
         bio: 'Ullam est nihil aliquam id. Sed rerum quia. Ipsam et voluptate architecto veniam voluptatem libero est quis excepturi. Nesciunt quaerat voluptas est illum sint sunt omnis. Et illo totam eum.',
-        photo: 'demo-worker-5.jpg',
+        photo: 'uploads/demo-worker-5.jpg',
         roleId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -194,7 +194,7 @@ module.exports = {
         github: 'http://rosetta.info',
         linkedin: 'https://gladyce.biz',
         bio: 'Itaque occaecati esse eveniet in ex numquam voluptatum molestiae odit. Molestiae et et est libero quis. Et sed pariatur explicabo culpa eos perferendis sint ipsa. Delectus voluptate magnam voluptatem maxime consectetur sed temporibus. Omnis itaque voluptas natus in sequi inventore voluptate at cumque. Nostrum totam perferendis praesentium dignissimos quae.',
-        photo: 'demo-worker-6.jpg',
+        photo: 'uploads/demo-worker-6.jpg',
         roleId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -211,12 +211,11 @@ module.exports = {
         github: 'http://holly.net',
         linkedin: 'https://troy.com',
         bio: 'Tenetur ratione impedit quia temporibus quam. Suscipit et repellendus assumenda. Eum aut non optio consectetur eos qui quis tempora. Fugit sit iste iusto repudiandae. Suscipit quibusdam minima ab aliquam. Nihil aperiam quod.',
-        photo: 'demo-worker-7.jpg',
+        photo: 'uploads/demo-worker-7.jpg',
         roleId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       }
-
     ])
   },
 

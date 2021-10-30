@@ -81,6 +81,11 @@ module.exports = {
         name: 'GRAPHQL',
         createdAt: new Date(),
         updatedAt: new Date()
+      },
+      {
+        name: '.NET',
+        createdAt: new Date(),
+        updatedAt: new Date()
       }
     ])
   },
